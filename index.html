@@ -81,6 +81,7 @@
 }
 
 </style>
+
 </head>
 
 <body>
@@ -345,7 +346,22 @@
   </div>
 
 </section>
-<!-- Case Start -->
+<!-- New Case-->
+<a name="case"></a>
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI Trends</div>
+            <h1 class="mb-4">Explore Recent AI Use Cases</h1>
+        </div>
+        <div id="dynamic-cards" class="row g-4">
+            <!-- Dynamic cards will be generated here -->
+        </div>
+    </div>
+</div>
+
+<!---->
+<!-- Case Start 
 <a name="case"></a>
 <div class="container-fluid bg-light py-5">
     <div class="container py-5">
@@ -390,7 +406,7 @@
         </div>
     </div>
 </div>
-<!-- Case End -->
+ -->
 
 <a name="about"></a>
     <!-- Feature Start -->
@@ -739,7 +755,58 @@
     opacity: 1;
   }
 }
+.RSS {
+  margin: 10px 0;
+}
+
+.RSS a {
+  font-size: 0.9em;
+  text-decoration:none;
+}
+
+.RSS:hover {
+	background-color: #BBBBBB;
+  text-decoration:none;
+}
     </style>
+    <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+<script>
+    $(document).ready(function() {
+   loadRSS('https://rss.beehiiv.com/feeds/hSrqYzV2lv.xml', '#dynamic-cards', 'Read more');
+ });
+ 
+ function loadRSS(link, htmlContainer, linktext) {
+     var url = link;
+     var container = $(htmlContainer);
+     function formatDate(dateString) {
+      var date = new Date(dateString);
+      var options = { day: '2-digit', month: 'short' };
+      return date.toLocaleDateString('en-US', options);
+    }
+     feednami.load(url, function(result){
+         if (result.error) {
+             console.log(result.error);
+         } else {
+             var entries = result.feed.entries;
+             for(var i = 0; i < entries.length && i < 3; i++){
+                 var entry = entries[i];
+                 var html = '<div class="col-lg-4 wow fadeIn" data-wow-delay="' + (i * 0.2 + 0.3) + 's">' +
+                   '<div class="case-item position-relative overflow-hidden rounded mb-2">' +
+                   '<img class="img-fluid" style="height: 300px; width: 100%;" src="' + entry.enclosures[0].url + '" alt="">' +
+                   '<a class="case-overlay text-decoration-none" href="' + entry.link + '">' +
+                   '<small>' + formatDate(entry.pubdate) + '</small>' +
+                   '<h5 class="lh-base text-white mb-3">' + entry.title + '</h5>' +
+                   '<span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>' +
+                   '</a>' +
+                   '</div>' +
+                   '</div>';
+                 container.append(html);
+             }
+         }
+     });
+ }
+ 
+ </script>
 </body>
 
 </html>
