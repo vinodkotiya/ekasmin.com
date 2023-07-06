@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow:
+Sitemap: www.ekasmin.com/sitemap.xml
