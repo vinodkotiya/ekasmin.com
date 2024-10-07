@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Ekasmin - AI for Business</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="keywords" content="Ekasmin, Ekasmin Consulting Inc., Best AI Consultant in Canada, Azure AI, Azure Studio, ChatGPT implementation, Earn money from AI, Increase revenue with AI, AI for Enterprise, AI for HR, AI for Finance, AI for Sales, AI for marketing, AI companies in Canada, AI solutions for business, Digital transformation services, Business management systems, JIRA implementation, Digital workplace solutions, M365 integration, Prompt engineering training, Knowledge management using LLMs, Question answering with LLMs, AI-powered business solutions, Power sector AI implementation, Shipbuilding industry digital transformation, AI strategy for organizations, Implementing AI in the power sector, AI solutions for shipbuilding companies, AI-driven knowledge management, Digital transformation consulting, AI-driven process optimization, AI implementation in India, Bangladesh, Canada, Leveraging AI for operational efficiency">
+    <meta name="description" content="Unlock the potential of AI and digital transformation in your business. Our expert team specializes in AI solutions for business, digital workplace integration, prompt engineering training, and knowledge management using LLMs. Partner with us to implement the right AI strategy tailored to your organization's needs. Transform your operations in the power sector and shipbuilding industry. Experts in USA, India, Bangladesh, and Canada. Contact us today for a consultation and drive growth with our AI-powered business solutions.">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TXP0JNX4FX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TXP0JNX4FX');
+</script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="logo.png">
+   
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Ubuntu:wght@500;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!--  Essential META Tags -->
+<meta property="og:title" content="Ekasmin - AI for Business">
+<meta property="og:type" content="article" />
+<meta property="og:image" content="https://www.ekasmin.com/thumb.jpg">
+<meta property="og:url" content="https://www.ekasmin.com/index.html">
+<meta name="twitter:card" content="summary_large_image">
+
+<!--  Non-Essential, But Recommended -->
+<meta property="og:description" content="Unlock the potential of AI and digital transformation in your business. Our expert team specializes in AI solutions for business, digital workplace integration, prompt engineering training, and knowledge management using LLMs. Partner with us to implement the right AI strategy tailored to your organization's needs. Transform your operations in the power sector and shipbuilding industry. Experts in USA, India, Bangladesh, and Canada. Contact us today for a consultation and drive growth with our AI-powered business solutions.">
+<meta property="og:site_name" content="Ekasmin - AI for Business">
+<meta name="twitter:image:alt" content="Ekasmin - AI for Business">
+
+<!--  Non-Essential, But Required for Analytics -->
+<meta property="fb:app_id" content="your_app_id" />
+<meta name="twitter:site" content="@vinodkotiya">
+<style>
+    .section-padding{
+  padding:60px 0;
+}
+.brand-carousel {
+  background: #eee;
+ }
+.owl-dots{
+  text-align: center;
+}
+
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #222222 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+
+.owl-dot.active {
+  background-color: #FF170F !important;
+}
+
+</style>
+
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Navbar Start -->
+    <div class="container-fluid sticky-top">
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-dark p-0">
+                <a href="index.html" class="navbar-brand">
+                    <h1 class="text-white">Ekasmin<span class="text-dark">.</span>com</h1>
+                </a>
+                <button type="button" class="navbar-toggler ms-auto me-0" data-bs-toggle="collapse"
+                    data-bs-target="#navbarCollapse">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav ms-auto">
+     
+                        <a href="#about" class="nav-item nav-link active">About</a>
+                        <a href="#service" class="nav-item nav-link">Services</a>
+                        <a href="#case" class="nav-item nav-link">Case Studies</a>
+                        <a href="newsletter.html" class="nav-item nav-link">News Letter</a>
+                       <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                            <div class="dropdown-menu bg-light mt-2">
+                                <a href="feature.html" class="dropdown-item">Features</a>
+                                <a href="team.html" class="dropdown-item">Our Team</a>
+                                <a href="faq.html" class="dropdown-item">FAQs</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                        </div> -->
+                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                    </div>
+                    <butaton type="button" class="btn text-white p-0 d-none d-lg-block" data-bs-toggle="modal"
+                        data-bs-target="#searchModal"><i class="fa fa-search"></i></butaton>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+
+    <!-- Hero Start -->
+    <div class="container-fluid pt-5 bg-primary hero-header mb-5">
+        <div class="container pt-5">
+            <div class="row g-5 pt-5">
+                <div class="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3 animated slideInRight">Ekasmin Consulting Inc.</div>
+                    <h1 class="display-4 text-white mb-4 animated slideInRight">Artificial Intelligence for Your Business</h1>
+                    <p class="text-white mb-4 animated slideInRight">Stay ahead of the curve with AI solutions that drive exponential growth and empower your business to outshine the competition. The rise of ChatGPT signifies the mainstream acceptance of AI, and it's time for you to harness its immense power. Discover how AI can revolutionize your processes, customer support, and efficiency. Embrace AI early and unlock a significant advantage that propels your business to new heights of success.
+                         We can help you to transform your organization into an AI-driven powerhouse. <b><a href="mailto:hello@Ekasmin.com" style="background-color: yellow; color: black; text-decoration: none; padding: 2px; border-radius: 4px;">hello@Ekasmin.com</a>
+                         </b></p>
+                    <a target="_blank" href="https://outlook.office365.com/owa/calendar/FreeAIConsulting@ekasmin.com/bookings/" class="btn btn-light py-sm-3 px-sm-5 rounded-pill me-3 animated slideInRight">Schedule A Call</a>
+                    <a href="#service" class="btn btn-outline-light py-sm-3 px-sm-5 rounded-pill animated slideInRight">Our Services</a>
+                </div>
+                <div class="col-lg-6 align-self-end text-center text-lg-end">
+                    <img class="img-fluid" src="img/hero-img.png" alt="ekasmin header">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Hero End -->
+  <!-- Slider -->
+   <!-- <div class="brand-carousel section-padding owl-carousel">
+        <div class="single-logo">
+          <img src="https://i.postimg.cc/t4w94PSN/logo1.png" alt="">
+        </div>
+        <div class="single-logo">
+          <img src="https://i.postimg.cc/t4w94PSN/logo1.png" alt="">
+        </div>
+        <div class="single-logo">
+          <img src="https://i.postimg.cc/t4w94PSN/logo1.png" alt="">
+        </div>
+        <div class="single-logo">
+          <img src="https://i.postimg.cc/t4w94PSN/logo1.png" alt="">
+        </div>
+        <div class="single-logo">
+          <img src="https://i.postimg.cc/t4w94PSN/logo1.png" alt="">
+        </div>
+        <div class="single-logo">
+          <img src="https://i.postimg.cc/t4w94PSN/logo1.png" alt="">
+        </div>
+      </div> -->
+      <!-- End Slider -->
+    <!-- Full Screen Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content" style="background: rgba(20, 24, 62, 0.7);">
+                <div class="modal-header border-0">
+                    <button type="button" class="btn btn-square bg-white btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center justify-content-center">
+                    <div class="input-group" style="max-width: 600px;">
+                        <input type="text" class="form-control bg-transparent border-light p-3"
+                            placeholder="Type search keyword">
+                        <button class="btn btn-light px-4"><i class="bi bi-search"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Full Screen Search End -->
+
+
+
+
+    <!-- Service Start -->
+    <a name="service"></a>
+    <div class="container-fluid bg-light">
+        <div class="container py-5">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Our Services</div>
+                    <h2 class="mb-4">Our Excellent AI and Business Solutions</h2>
+                    <p class="mb-4">Embark on a journey of excellence with our cutting-edge AI and business solutions powered by Azure OpenAI, cognitive services, Azure Studio, and our Enterprise ChatGPT app. We thrive on innovation and are committed to delivering exceptional results that transform the way businesses operate. With our profound expertise in artificial intelligence, we provide customized solutions that revolutionize your organization's operations. From intelligent business management systems to seamless digital workplace solutions, our comprehensive offerings empower you to optimize efficiency, streamline processes, and unlock untapped potential. Step into the epitome of excellence as we pave the path for your business's unparalleled success in the dynamic digital era. Unleash the true potential of AI with us and stay ahead of the curve.</p>
+                    <a class="btn btn-primary rounded-pill px-4"  target="_blank" href="https://outlook.office365.com/owa/calendar/FreeAIConsulting@ekasmin.com/bookings/">Schedule A Call</a>
+                </div>
+                <div class="col-lg-7">
+                    <div class="row g-4">
+                        <div class="col-md-6">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-robot fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">AI Business Solutions - LLMOps</h5>
+                                        <p>Unlock the power of Azure Open AI with our expert guidance in assessing, fine-tuning, and deploying LLMs. Our innovative solutions include a Question Answer bot for seamless customer service and a robust focus on data privacy. With our expertise, you can create an immersive and interactive corporate knowledge base, utilizing tools like ChatGPT.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.5s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-power-off fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Business Management Solution</h5>
+                                        <p>Be Agile. Introduce latest project management methodolgies using JIRA, Asana.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pt-md-4">
+                            <div class="row g-4">
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.3s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-graduation-cap fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Gap Analysis & AI Roadmap</h5>
+                                        <p>Unlock the immense potential of AI within your organization as we empower you to implement the perfect AI strategy that aligns with your unique needs and objectives.</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div>
+                                <div class="col-12 wow fadeIn" data-wow-delay="0.7s">
+                                    <div class="service-item d-flex flex-column justify-content-center text-center rounded">
+                                        <div class="service-icon btn-square">
+                                            <i class="fa fa-brain fa-2x"></i>
+                                        </div>
+                                        <h5 class="mb-3">Digital Transformation</h5>
+                                        <p>Empower your workforce with latest digital tools for higher productivity. AI powered M365, Google Workplace, Hubspot CRM</p>
+                                        <a class="btn px-3 mt-auto mx-auto" href="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Service End -->
+<!-- This snippet uses Font Awesome 5 Free as a dependency. You can download it at fontawesome.io! -->
+
+              
+              
+<section class="pricing container-fluid bg-primary feature pt-5">
+  <div class="container">
+    <div class="row">
+      <!-- Free Tier -->
+      <h2 class="mb-4 text-white">A Simple Way To Start</h2>
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-price text-center">Gap Analysis & AI Roadmap</h5>
+            <h6 class="card-price text-center"><span class="period">Free</span></h6>
+            <hr>
+            <ul class="fa-ul">
+                <li><span class="fa-li"><i class="fas fa-check"></i></span>Presentation on AI Benefits</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Define Objectives</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Conduct Current State Assessment</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Gather Requirements</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Perform Gap Analysis</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Develop AI Roadmap</li>
+          <!--<li class="text-muted"><span class="fa-li"><i class="fas fa-times"></i></span>Develop AI Roadmap</li>-->
+            </ul>
+            <div class="d-grid">
+              <a target="_blank" href="https://outlook.office365.com/owa/calendar/FreeAIConsulting@ekasmin.com/bookings/" class="btn btn-primary text-uppercase">Try Free</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Plus Tier -->
+      <div class="col-lg-4">
+        <div class="card mb-5 mb-lg-0">
+          <div class="card-body">
+            <h5 class="card-price text-center">AI Business Solutions - LLMOps</h5>
+            <h6 class="card-price text-center"><span class="period">Paid</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Gap Analysis & AI Roadmap</strong></li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>AI Solutions (like QA Agent/Apps)</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Pilot Testing</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Implementation</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Documentation & Training</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Maintenance</li>
+                           
+            </ul>
+            <div class="d-grid">
+                <a target="_blank" href="https://outlook.office365.com/owa/calendar/FreeAIConsulting@ekasmin.com/bookings/" class="btn btn-primary text-uppercase">Get Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Pro Tier -->
+      <div class="col-lg-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-price text-center">Digital Transformation</h5>
+            <h6 class="card-price text-center"><span class="period">Paid</span></h6>
+            <hr>
+            <ul class="fa-ul">
+              <li><span class="fa-li"><i class="fas fa-check"></i></span><strong>Prompt Engineering Training</strong>
+              </li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Agile Training</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>JIRA Implementation</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>M365 Implementation</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Azure Open AI</li>
+              <li><span class="fa-li"><i class="fas fa-check"></i></span>Google Business/ Hubspot CRM</li>
+            
+            </ul>
+            <div class="d-grid">
+                <a target="_blank" href="https://outlook.office365.com/owa/calendar/FreeAIConsulting@ekasmin.com/bookings/" class="btn btn-primary text-uppercase">Get Quote</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div style="padding-bottom:10px"></div>
+    </div>
+  </div>
+
+</section>
+<!-- New Case-->
+<a name="case"></a>
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">AI Trends</div>
+            <h2 class="mb-4">Explore Recent AI Use Cases</h2>
+        </div>
+        <div id="dynamic-cards" class="row g-4">
+            <!-- Dynamic cards will be generated here -->
+        </div>
+    </div>
+</div>
+
+<!---->
+<!-- Case Start 
+<a name="case"></a>
+<div class="container-fluid bg-light py-5">
+    <div class="container py-5">
+        <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 500px;">
+            <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Case Study</div>
+            <h1 class="mb-4">Explore Our Recent AI Use Cases</h1>
+        </div>
+        <div class="row g-4">
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.3s">
+                <div class="case-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="img/project-1.jpg" alt="">
+                    <a class="case-overlay text-decoration-none" href="">
+                        <small>HR Agent</small>
+                        <h5 class="lh-base text-white mb-3">Train AI Model on HR Policy
+                        </h5>
+                        <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.5s">
+                <div class="case-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="img/project-2.jpg" alt="">
+                    <a class="case-overlay text-decoration-none" href="">
+                        <small>Customer Service</small>
+                        <h5 class="lh-base text-white mb-3">Train AI Model on FAQ for your company
+                        </h5>
+                        <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+            <div class="col-lg-4 wow fadeIn" data-wow-delay="0.7s">
+                <div class="case-item position-relative overflow-hidden rounded mb-2">
+                    <img class="img-fluid" src="img/project-3.jpg" alt="">
+                    <a class="case-overlay text-decoration-none" href="">
+                        <small>Real Estate</small>
+                        <h5 class="lh-base text-white mb-3">Get lead over competitiors with AI support
+                        </h5>
+                        <span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ -->
+
+<a name="about"></a>
+    <!-- Feature Start -->
+    <div class="container-fluid bg-primary feature pt-5">
+        <div class="container pt-5">
+            <div class="row g-5">
+                <div class="col-lg-6 align-self-center mb-md-5 pb-md-5 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">About Us</div>
+                    <h2 class="text-white mb-4">We're Best in transforming a business</h2>
+                    <p class="text-light mb-4">Our proven track record of successful implementations in the power sector, tourism, immigration, ed-tech, shipbuilding industry speaks volumes about our capabilities. We deliver tailor-made solutions that enhance operational efficiency, optimize resource allocation, and drive growth. We ensure seamless implementation and knowldge transfer.</p>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Worked in Public and Private Sector</span>
+                    </div>
+                    <div class="d-flex align-items-center text-white mb-3">
+                        <div class="btn-sm-square bg-white text-primary rounded-circle me-3">
+                            <i class="fa fa-check"></i>
+                        </div>
+                        <span>Across India, Bangladesh, and Canada</span>
+                    </div>
+                    <div class="row g-4 pt-3">
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-users fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">26,000</h2>
+                                    <p class="text-white mb-0">Happy Users of Clients</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="d-flex rounded p-3" style="background: rgba(256, 256, 256, 0.1);">
+                                <i class="fa fa-check fa-3x text-white"></i>
+                                <div class="ms-3">
+                                    <h2 class="text-white mb-0" data-toggle="counter-up">120<span></h2>
+                                    <p class="text-white mb-0">Projects Completed</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6  text-center text-md-end wow fadeIn" data-wow-delay="0.5s">
+                   <!-- <img class="img-fluid" src="img/feature.png" alt="">-->
+                   <div class="row g-4">
+                    
+                        <div class="row g-4">
+                            <div class="col-12 wow fadeIn" data-wow-delay="0.1s">
+                                <div class="team-item bg-transparent text-center rounded p-4 pt-0">
+                                    <div class="col-lg-6">
+                                    <img class="img-fluid rounded-circle p-4" src="img/vinod.jpg" alt="vinod kotiya">
+                                    <div class="d-flex align-items-center mt-4">
+                                        <a class="btn btn-square btn-primary m-1" style="background: rgba(256, 256, 256, 0.1);" target="_blank" href="https://www.linkedin.com/in/vinodkotiya/"><i class="fab fa-linkedin-in"></i></a>
+                                        <a class="btn btn-primary rounded-pill px-4 me-3"  target="_blank" href="https://www.linkedin.com/in/vinodkotiya/">Vinod Kotiya</a>
+                                        
+                                       <!---- <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a> --->
+                                       
+                                       
+                                    </div> <small class="text-white">Founder & Director</small> <br/>
+                                </div>
+                                 
+                                    <small class="text-white">Masters in Dependable Software Systems from the University of British Columbia with 17+ Yrs. IT Experience in Public/Private/Start-up companies</small> 
+                                </div>
+                            </div>
+                            
+                        </div>
+                    
+                            </div>
+                    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
+    <!-- About Start -->
+   
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="about-img">
+                        <img class="img-fluid" src="img/about-img.jpg" alt="about">
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Why Choose Us</div>
+                    <h2 class="mb-4">We Make Your Business Smarter with AI & Digital Transformation</h2>
+                    <p class="mb-4">Harnessing cutting-edge technologies and strategic insights, we offer tailored solutions that propel your organization forward. Whether you're seeking efficient business management systems like JIRA, seamless digital workplaces with M365, prompt engineering training, knowledge management or question answering capabilities leveraging LLMs from Azure OpenAI, our comprehensive services have you covered. </p>
+                    <p class="mb-4">Explore the limitless possibilities of AI and embark on a transformative journey with us. Together, we'll unlock your business's true potential.</p>
+                    <div class="row g-3">
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Proven Enterprise Solutions</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Data Security Compliance</h6>
+                        </div>
+                        <div class="col-sm-6">
+                            <h6 class="mb-3"><i class="fa fa-check text-primary me-2"></i>Easy Implementation</h6>
+                            <h6 class="mb-0"><i class="fa fa-check text-primary me-2"></i>Cost Savings</h6>
+                        </div>
+                    </div>
+                    <div class="d-flex align-items-center mt-4">
+                        <a class="btn btn-primary rounded-pill px-4 me-3"  target="_blank" href="https://outlook.office365.com/owa/calendar/FreeAIConsulting@ekasmin.com/bookings/">Book A Meeting</a>
+                       <!---- <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-outline-primary btn-square me-3" href=""><i class="fab fa-instagram"></i></a> --->
+                        <a class="btn btn-outline-primary btn-square" target="_blank" href="https://www.linkedin.com/company/89799888"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- About End -->
+
+    
+
+   
+
+
+    <!-- Testimonial Start -->
+    <div class="container-xxl py-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="btn btn-sm border rounded-pill text-primary px-3 mb-3">Testimonial</div>
+                    <h2 class="mb-4">What Say Our Clients!</h2>
+                    <p class="mb-4">From the need to support professionals in learning and adopting revolutionary AI technology. We focus on leveraging AI to make processes more efficient and allow people to work more effectively, not reduce or eliminate headcount.</p>
+                    <a class="btn btn-primary rounded-pill px-4" href="">Read Use Cases</a>
+                </div>
+                <div class="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="owl-carousel testimonial-carousel border-start border-primary">
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Implementation of JIRA really helped to bring Agile work culture in our organisation and fast track the complex project.</p>
+                            <div class="d-flex align-items-center">
+                                <!--<img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-1.jpg"
+                                    style="width: 60px; height: 60px;"> -->
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Seaspan</h5>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">It helped us in getting more leads by integrating AI with telegram.</p>
+                            <div class="d-flex align-items-center">
+                               <!-- <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-2.jpg"
+                                    style="width: 60px; height: 60px;"> -->
+                                <div class="ps-3">
+                                    <h5 class="mb-1">CanVisaBot</h5>
+                                   
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial-item ps-5">
+                            <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
+                            <p class="fs-4">Havin a mobile app with AI knowledge base helped us to convert leads.</p>
+                            <div class="d-flex align-items-center">
+                               <!-- <img class="img-fluid flex-shrink-0 rounded-circle" src="img/testimonial-3.jpg"
+                                    style="width: 60px; height: 60px;"> -->
+                                <div class="ps-3">
+                                    <h5 class="mb-1">Dizikid</h5>
+                                  
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Testimonial End -->
+
+    <a name="newsletter"></a>
+    <!-- Newsletter Start -->
+    <div class="container-fluid bg-primary newsletter py-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-md-5 ps-lg-0 pt-5 pt-md-0 text-start wow fadeIn" data-wow-delay="0.3s">
+                    <img class="img-fluid" src="img/newsletter.png" alt="newsletter">
+                </div>
+                <div class="col-md-7 py-5 newsletter-text wow fadeIn" data-wow-delay="0.5s">
+                    <div class="btn btn-sm border rounded-pill text-white px-3 mb-3">Newsletter</div>
+                    <h2 class="text-white mb-4">Get updated with our newsletter</h2>
+                    <div class="position-relative w-100 mt-3 mb-2">
+                        <iframe src="https://embeds.beehiiv.com/abc3d002-e4eb-4080-9c87-bb8153d30a11?slim=true" data-test-id="beehiiv-embed" height="52" frameborder="0" scrolling="no" style="margin: 0; border-radius: 0px !important; background-color: transparent;"></iframe>
+                    </div>
+                    <small class="text-white-50">
+                    <svg viewBox="0 0 158.97 149.83" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" style="    width: 1rem;     height: 1rem;"><defs><linearGradient gradientUnits="userSpaceOnUse" id="linear-gradient" x1="4.7" x2="139.4" y1="-39.46" y2="137.72"><stop offset="0" stop-color="#f64f59"></stop><stop offset="0.5" stop-color="#c471ed"></stop><stop offset="1" stop-color="#12c2e9"></stop></linearGradient><linearGradient id="linear-gradient-2" x1="22.55" x2="157.24" xlink:href="#linear-gradient" y1="-53.03" y2="124.15"></linearGradient><linearGradient id="linear-gradient-3" x1="-12.58" x2="122.12" xlink:href="#linear-gradient" y1="-26.33" y2="150.85"></linearGradient><linearGradient id="linear-gradient-4" x1="-6.27" x2="128.42" xlink:href="#linear-gradient" y1="-31.12" y2="146.06"></linearGradient><linearGradient id="linear-gradient-5" x1="-55.58" x2="79.12" xlink:href="#linear-gradient" y1="6.36" y2="183.54"></linearGradient></defs><g><path d="M138.18,70.42H20.79A5.44,5.44,0,0,1,15.35,65V56.74a17,17,0,0,1,17-17h94.19a17,17,0,0,1,17,17V65A5.43,5.43,0,0,1,138.18,70.42Z" fill="url(#linear-gradient)"></path><path d="M113.49,30.71h-68a5.54,5.54,0,0,1-5.54-5.54h0A25.17,25.17,0,0,1,65.11,0H93.86A25.17,25.17,0,0,1,119,25.17h0A5.54,5.54,0,0,1,113.49,30.71Z" fill="url(#linear-gradient-2)"></path><path d="M143.61,79.42H15.35a15.36,15.36,0,0,0,0,30.71H61a18.86,18.86,0,0,1,37.06,0h45.6a15.36,15.36,0,1,0,0-30.71Z" fill="url(#linear-gradient-3)"></path><path d="M138.13,119.13H98.35v30.7h30a15.35,15.35,0,0,0,15.35-15.35v-9.81A5.54,5.54,0,0,0,138.13,119.13Z" fill="url(#linear-gradient-4)"></path><path d="M20.84,119.13a5.55,5.55,0,0,0-5.55,5.54v9.81a15.36,15.36,0,0,0,15.36,15.35h30v-30.7H20.84Z" fill="url(#linear-gradient-5)"></path></g></svg><span class="text-gray-700 text-md font-regular">Powered by beehiiv</span></small> 
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Newsletter End -->
+
+
+    <!-- Footer Start -->
+    <a name="contact"></a>
+    <div class="container-fluid bg-dark text-white-50 footer pt-5">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <a href="index.html" class="d-inline-block mb-3">
+                        <h2 class="text-white">Ekasmin<span class="text-primary">.</span>com</h2>
+                    </a>
+                    <p class="mb-0">We love to Digitalize organizations</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" target="_blank" href="https://www.linkedin.com/company/89799888"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <h5 class="text-white mb-4">Get In Touch</h5>
+                    <p><i class="fa fa-map-marker-alt me-3"></i>Vancouver, Canada</p>
+                    <p><i class="fa fa-phone-alt me-3"></i>+1-77-865-24-924</p>
+                    <p><i class="fa fa-envelope me-3"></i><b><a href="mailto:hello@Ekasmin.com" style="background-color: yellow; color: black; text-decoration: none; padding: 2px; border-radius: 4px;">hello@Ekasmin.com</a>
+                    </b></p>
+                    
+                </div>
+               
+               
+            </div>
+        </div>
+        <div class="container wow fadeIn" data-wow-delay="0.1s">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy; <a class="border-bottom" href="www.ekasmin.com">Ekasmin.com</a>, All Right Reserved.
+
+                       
+                    </div>
+                    <div class="col-md-6 text-center text-md-end">
+                        <div class="footer-menu">
+                            <a href="">Home</a>
+                            <a href="">Privacy Policy</a>
+                            <a href="">Help</a>
+                            <a href="">FAQs</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top pt-2"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/counterup/counterup.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    <script>
+        $('.brand-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  autoplay:true,
+  responsive:{
+    0:{
+      items:1
+    },
+    600:{
+      items:3
+    },
+    1000:{
+      items:5
+    }
+  }
+})
+    </script>
+    <style>
+        section.pricing {
+ /* background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
+  background: #a7a8a8;
+  background: linear-gradient(to right, #a7a8a8, #f3f4f5);*/
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 1.6rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/* Hover Effects on Card */
+
+@media (min-width: 992px) {
+  .pricing .card:hover {
+    margin-top: -.25rem;
+    margin-bottom: .25rem;
+    box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.3);
+  }
+
+  .pricing .card:hover .btn {
+    opacity: 1;
+  }
+}
+.RSS {
+  margin: 10px 0;
+}
+
+.RSS a {
+  font-size: 0.9em;
+  text-decoration:none;
+}
+
+.RSS:hover {
+	background-color: #BBBBBB;
+  text-decoration:none;
+}
+    </style>
+    <script src="https://static.sekandocdn.net/static/feednami/feednami-client-v1.1.js"></script>
+<script>
+    $(document).ready(function() {
+   loadRSS('https://rss.beehiiv.com/feeds/hSrqYzV2lv.xml', '#dynamic-cards', 'Read more');
+ });
+ 
+ function loadRSS(link, htmlContainer, linktext) {
+     var url = link;
+     var container = $(htmlContainer);
+     function formatDate(dateString) {
+      var date = new Date(dateString);
+      var options = { day: '2-digit', month: 'short' };
+      return date.toLocaleDateString('en-US', options);
+    }
+     feednami.load(url, function(result){
+         if (result.error) {
+             console.log(result.error);
+         } else {
+             var entries = result.feed.entries;
+             for(var i = 0; i < entries.length && i < 3; i++){
+                 var entry = entries[i];
+                 var html = '<div class="col-lg-4 wow fadeIn" data-wow-delay="' + (i * 0.2 + 0.3) + 's">' +
+                   '<div class="case-item position-relative overflow-hidden rounded mb-2">' +
+                   '<img class="img-fluid" style="height: 300px; width: 100%;" src="' + entry.enclosures[0].url + '" alt="newsletter thumb">' +
+                   '<a class="case-overlay text-decoration-none" href="' + entry.link + '">' +
+                   '<small>' + formatDate(entry.pubdate) + '</small>' +
+                   '<h5 class="lh-base text-white mb-3">' + entry.title + '</h5>' +
+                   '<span class="btn btn-square btn-primary"><i class="fa fa-arrow-right"></i></span>' +
+                   '</a>' +
+                   '</div>' +
+                   '</div>';
+                 container.append(html);
+             }
+         }
+     });
+ }
+ 
+ </script>
+</body>
+
+</html>
