@@ -2628,7 +2628,7 @@ ul {
 .top-nav {
   justify-content: center;
   align-items: center;
-  padding-top: 20px;
+  padding-top: 2px;
   padding-bottom: 0px;
   display: flex
 }
@@ -2637,7 +2637,7 @@ ul {
   grid-column-gap: 10px;
   grid-row-gap: 10px;
   align-items: center;
-  width: 140px;
+  /*width: 140px;*/
   display: flex
 }
 
