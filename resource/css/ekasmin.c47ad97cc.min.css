@@ -3091,7 +3091,7 @@ ul {
 
 .image-73 {
   width: 25vw;
-  max-width: 300px;
+  max-width: 190px;
   position: absolute;
   top: 13%;
   bottom: auto;
@@ -3228,8 +3228,8 @@ ul {
 
 .image-78._3 {
   width: 50vw;
-  max-width: 360px;
-  top: 360px;
+  max-width: 200px;
+  top: 450px;
   bottom: 0%;
   left: auto;
   right: 0%
@@ -3247,7 +3247,7 @@ ul {
 
 .image92 {
   width: 25vw;
-  max-width: 300px;
+  max-width: 190px;
   position: absolute;
   top: 13%;
   bottom: auto;
@@ -3293,7 +3293,7 @@ ul {
 
 .image22 {
   width: 20vw;
-  max-width: 230px;
+  max-width: 180px;
   position: absolute;
   top: 0%;
   bottom: auto;
@@ -3303,7 +3303,7 @@ ul {
 
 .image33 {
   width: 18vw;
-  max-width: 230px;
+  max-width: 130px;
   position: absolute;
   top: 0%;
   bottom: auto;
@@ -3589,10 +3589,10 @@ ul {
 
 .image-80 {
   position: absolute;
-  top: 0%;
+  top: -11%;
   bottom: auto;
   left: auto;
-  right: -5%
+  right: -20%
 }
 
 .faq {
