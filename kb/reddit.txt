@@ -1,0 +1,695 @@
+As an enterprise architect how much do you do that isn't strictly about architecture?
+Some colleagues and I were talking about some of the activities we get involved in that move the organisation forward but aren't what I would typically think of as architecture.
+
+Convincing multiple projects to share the cost of a new components
+
+Revisiting the drivers behind a business case by running ground up problem pain point analysis workshops
+
+Developing a system (excel) and process to capture costs for the fleet of applications and then use that in planning.
+
+Acting as a project engineer
+
+Managing part of a delivery for a period of time.
+
+They feel like they should sit in a project office or in a BA team or as part of a finance function but the EA team ended up doing them.
+
+So is this something that sits out side of architecture or something that is really part of it? What's your experience of being dragged into other areas?
+
+
+Upvote
+15
+
+Downvote
+
+22
+Go to comments
+
+
+Share
+Join the conversation
+Sort by:
+
+Best
+
+Search Comments
+Expand comment search
+Comments Section
+[deleted]
+•
+2y ago
+There’s a misunderstanding that Enterprise Architecture is an engineering role.
+
+It isn’t.
+
+It’s a strategy role, which means it’s a political role.
+
+The bigger the company the more true this statement becomes.
+
+track me
+
+
+Upvote
+34
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+EuphoricFly1044
+•
+2y ago
+this is so true. i see so many people not understanding what an EA role is
+
+
+Upvote
+6
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+Pathwalkerz
+•
+2y ago
+This is correct. There is also lack of a clear definition for many architectural roles which makes the “architecture” role a mess. From my personal experience: EA is strategical, software architecture is technical, and solutions architects are now shifting more to “sales solutions expert”. Every company has their own different definitions of it too which makes it way more convoluted. Education is key.
+
+
+Upvote
+4
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+u/onomichii avatar
+onomichii
+•
+2y ago
+95% of my work is on politics
+
+
+
+Upvote
+12
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+ThroGM
+•
+2y ago
+What do you mean ?
+
+
+Upvote
+3
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+
+8 more replies
+u/rcx677 avatar
+rcx677
+•
+2y ago
+75% of my work is non architecture.
+
+When I started the role I was told by my predecessor I'll be expected to be a god. Boy was he right. Why the F are projects asking me how to set up their programming frameworks, why am I expected to detail out security controls, why am I expected to tell them how to set up infra?
+
+At one point when a project was failing due to incompetent programmers, IT came to me and said "as an architect I expect you to sort this out".
+
+Yesterday a project came to me complaining about a bad security control. I gave them advise and thought that was all they wanted. They then said "what actions will you now be taking to sort this out?". F'ing none, this is your responsibility to carry out, p*** off.
+
+I'm trying to find polite ways of telling people "this isn't my job" and setting boundaries.
+
+
+
+Upvote
+8
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+Ambitious_Lie5972
+OP
+•
+2y ago
+Are there people in the organisation who's roles it is to solve those problems. I get a similar problem, my approach usually involves gently guiding them to the person or team who should be responsible.
+
+One challenge I face is that when i started the organisation was small, and it was really on the project lead to sort it out and there was no body else to go to, after it grew the problems land with architecture.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+
+1 more reply
+dareyoutolaugh
+•
+2y ago
+Every business is different. Some businesses understand the textbook definition of enterprise architecture and create a working environment that fosters that sort of role. Other businesses are looking for a title for their most senior technical person. They want someone who can scan the horizon for potholes while bringing IT’s capabilities closer to the businesses needs, but can’t afford to hire someone to be solely academic.
+
+IT related subreddits are filled with people complaining that they are doing tasks outside of their defined job title. Ultimately, unless required by some legal framework, every job title is BS. A business doesn’t need an enterprise architect (or NetOps engineer, or systems administrator) as defined by x, y, or z. They need someone who can bring the business value. If we’re lucky, they will use a name that closely aligns with the function. If we’re not, they will pick a name out of a hat.
+
+We’re EAs, we know that what people say they want and what people need aren’t always the same thing. If you’re spending a good chunk of your time bludgeoning people into understanding what you believe your role to be, there is a fundamental misalignment. What you think you should be doing (maybe even what the business asked for) doesn’t meet what the business actually needs. Maybe they needed a systems engineer. Maybe they needed a solutions architect. Usually they needed someone who can be a bit EA with a little of the other two.
+
+I see three paths for the people that are unhappy with how they are utilized as EAs: make your definition of EA valuable enough that stakeholders sufficiently protect your time and space, provide value to the business by performing roles it requires even if they aren’t strictly EA, or leaving for a business where their view of your role more closely aligns with yours. Spending half of your day telling people “that isn’t my job” won’t keep you happy and won’t make others happy with you.
+
+
+Upvote
+6
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+creakyclimber
+•
+2y ago
+Definitely more stakeholder management, selling the long term technology vision and how it will support the business strategy. So the first point yes, but I would expect solution architects to handle your other points, except for project engineer. If an Architect is doing Engineering there’s a problem. If your organisation is big enough to have architects they should not do engineering, if not big enough the engineers need to cover the architecture as best they can.
+
+
+Upvote
+3
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+
+[deleted]
+•
+2y ago
+
+This is realllllly interesting and fits my understanding after 6 months in the role, but seems to be an unspoken or written job description!!
+
+How does one most effectively go about that though, I mean once the problems have been identified, without any actual "power" or management responsibilities, how does one bring alignment and advise whilst staying within the good graces of others in the company politics, and not burning bridges?
+
+Would love to hear more on examples to the of a chain on what was done and how success can be measured, or even how you know you've done something.
+
+track me
+
+
+Upvote
+5
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+redikarus99
+•
+2y ago
+•
+Edited 2y ago
+Let me give you an example. We have a bunch of EA/SA guys who started recently. We realized that we need to work on cross cutting topics and so we formed working groups. One working group was about security. We went to the security team but first they did not even wanted to talk to us. Kind of "this is our sandbox, you cannot play, go away" way.
+
+Later they agreed to have a meeting. A very short one. We introduced ourselves and told them: we are here to help and support you and we could be your extended hand towards the development team. We will collect all the information we can and will provide it to you and help you push through the initiatives you have because we think they are really important for the organization, and because we are convienced that cybersecurity is super important. And this worked marvelously, from that point on we have extremly great collaboration.
+
+I used the same tactics for other groups as well. Go to them, tell them what you are working on, that you would like to align with their activities so that to have a better communication across departments, support their initiatives, and also would like to learn more about what they are doing.
+
+No one ever said me: I am not showing you anything, go away... on the contrary ... everyone I talked to ever was proud of showing how they work, what they do, and why they think it is super important. And how stupid others are not understanding them. This is the time when you need to nod. A lot :D
+
+Think about yourself as an architect as a bridge-builder, that can help initatives going through by connecting the right people, removing jams, oiling the gears. This requires communication, ability to listen (I so have to work on this tbh), asking questions (having some progress here) and so on.
+
+I personally think that I should go to a communication training, because a big percentage of my work is communication and politics.
+
+
+
+Upvote
+9
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+Ambitious_Lie5972
+OP
+•
+2y ago
+Think about yourself as an architect as a bridge-builder, that can help initatives going through by connecting the right people, removing jams, oiling the gears. This requires communication, ability to listen (I so have to work on this tbh), asking questions (having some progress here) and so on.
+
+You just mentioned something that I've intuitively understood but couldnt articulate.
+
+Architecture builds bridges
+
+
+Upvote
+4
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+[deleted]
+•
+2y ago
+Soft skills are super important.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+u/cnvery avatar
+cnvery
+•
+2y ago
+Well said. This is the best explanation to EA/SA role with different teams in large organization
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+Ambitious_Lie5972
+OP
+•
+2y ago
+his is realllllly interesting and fits my understanding after 6 months in the role, but seems to be an unspoken or written job description!!
+
+How does one most effectively go about that though, I mean once the problems have been identified, without any actual "power" or management responsibilities, how does one bring alignment and advise whilst staying within the good graces of others in the company politics, and not burning bridges?
+
+Would love to hear more on examples to the of a chain on what was done and how success can be measured, or even how you know you've done something
+
+Probably worth turning this point into a separate post, possibly next week. e.g. Asking people example people navigate the politics.
+
+
+Upvote
+4
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+Advice for a new Enterprise Architect?
+Hi all, I recently accepted an Enterprise Architect job offer. I currently work as a Solution Architect for a major international company with 20k+ people. The current role itself is mostly driving IT architecture work for projects, from helping with the requirements to outlining the high-level design. As common for big organizations, my work is very siloed and many architects have to give input for their domains to move things forward.
+
+In retrospect, the new job will be at a smaller organization ~1k people, but I will be the only EA overseeing the whole architecture function. The work is also going to be much more strategy-focused. The organization is quite new and the architecture function is immature, so a lot of potential to shape the future.
+
+I was hoping to get advice from other senior architects here. Perhaps some pointers on how best to take this challenge. Any references to material on how to establish an Enterprise Architecture in an organization are also welcome. Thanks!
+
+
+Upvote
+11
+
+Downvote
+
+12
+Go to comments
+
+
+Share
+Join the conversation
+Sort by:
+
+Best
+
+Search Comments
+Expand comment search
+Comments Section
+anon702170
+•
+2y ago
+I've implemented EA practices a few times into organizations and there isn't one approach. Common elements are the framework, a review process that inter-locks with the existing PMO, and some principles. From there, be adaptive -- see where the gaps are, where the asinine decisions are being made, understand why, and fill them with an artifact.
+
+Ultimately, if creating an artifact isn't going to solve a business problem, don't do it.
+
+If strategy is the problem child, focus on the corporate objectives, linking them to the IT project portfolio and the business capabilities (even at a high-level). Ask how are these IT projects delivering the corporate objective. There may also be a lack of strategy, does the business know where it's going -- digital transformation, product-orientation, value streams are likely places they'd like to go, but they may not know it. And lastly, if your problem is at the top (Business Architecture), don't waste your time at the Technology layer. IT always thinks in technology terms, it's the label on the tin, don't get sucked into it. Don't do EA for EA's sake, do it for the business.
+
+track me
+
+Upvote
+4
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+sniperj17
+•
+2y ago
+Lots of good advice here. If you ever implement an EA tool, go with Orbus Infinity. Hands down the best one imo.
+
+
+Upvote
+3
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+[deleted]
+•
+2y ago
+Excellent advice here! You've got a lot to work with. The main thing is don't stress and start formulating a plan of action. A 90 day plan for example is a really good tool to help you.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+u/Excellent_Young_1371 avatar
+Excellent_Young_1371
+•
+2y ago
+Hi Jim,
+
+I'd recommend starting off right by using an EA tool to stay agile. Using a tool like Bluedolphin would enable you to create project/solution architecture while it automates mapping your current state as you complete the project. You can then recycle the information as you complete project 2 and so on. This keeps you focussed on transformation projects, adding value to the business while maintaining the current state. You can also collaborate with the business because it allows you to create a custom metamodel which is simple for the non-architects to understand. There's also a strategy alignment which links projects to objectives to reduce project failure and delays.
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+caprica71
+•
+2y ago
+•
+Edited 2y ago
+New EA functions usually involve:
+
+Establishing the architecture principles, approval processes and repository
+
+Establishing PDs for your reports, aligning KPIs, establishing areas of responsibility, hiring / firing
+
+Mapping out the portfolio of current capabilities and assessing where they in the life cycle
+
+Defining the road map
+
+Keeping on top of changes and key issues with your suppliers and business owners
+
+Working on blockers that are holding up your architects, managing priorities and resolving conflicts
+
+Writing papers / presentations for your execs on key issues (often with very little notice)
+
+Some of these can soak up a lot of time. The role is less about technology and more about politics, working within cost / time limits and resolving hard problems. You can forget about getting involved in the details like you did as a solution architect. You will have too many systems to worry about. You will need to learn to deep dive only when necessary,
+
+The other hard thing is everyone will expect you to have all the answers.
+
+
+
+Upvote
+20
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+u/ImpossibleBird5948 avatar
+ImpossibleBird5948
+•
+2y ago
+how do you learn and understand capability mapping
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+
+2 more replies
+u/Knowl3dgeguy3201 avatar
+Knowl3dgeguy3201
+•
+6mo ago
+Where would a new EA find good technology road- map templates?
+
+
+Upvote
+1
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+u/CheesyLala avatar
+CheesyLala
+•
+2y ago
+Essentially, EA boils down to three main categories: what does today look like, what should tomorrow look like, how do we get there?
+
+Where are we today: what's our current reference architecture; application catalogues, service registry, data models, architecture principles/patterns, hosting/infrastructure/network diagrams etc
+
+Where are we trying to get to: target architecture, road-maps, strategies, horizon-scanning, innovation, legacy removal/migration, investment strategy, decision-making
+
+How will we work: resourcing, skills, operating model, governance, delivery structures, solution designs
+
+Then if you've been a Solution Architect then you have some advantage, as really the Solution Architect is the bus-driver for the destination and travel plans set by the Enterprise Architect - so just ask yourself what you'd want to know as a SA before starting work on a project, and then be the person to provide that - e.g. I'd want to know what technology choices I should be making for e.g. hosting, integration, databases, app-dev etc; what patterns to follow e.g. microservices, event-based messaging etc, what governance structures/processes to follow, what principles to apply.
+
+Do all that and I reckon that's most of the job done.
+
+
+
+Upvote
+5
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+malaostia
+•
+2y ago
+.. this ... with one addition
+
+Find the pain points in your current org by talking to stakeholders and peers and then see if you ca n find data to back that up. Strategic change is emotiinal the data and pain points help remove the emotion from discussions
+
+
+Upvote
+2
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+GardenShedster
+•
+2y ago
+Identify the in-house technical skills. You may need to propose training if in budget or firing and hiring. You don’t want to propose a strategy if no one can implement solutions associated to it.
+
+Identify the outstanding fire fighting tasks, can your strategy eliminate that.
+
+Be realistic in your strategy. Get people on board early and get them involved in defining it.
+
+
+Upvote
+5
+
+Downvote
+
+Reply
+reply
+
+Award
+
+Share
+
+What does an enterprise architect do?
+An Enterprise Architect does the following:
+
+Makes an understanding of the entrprise long term vision and short term goals… and based on this, periodically evaluates current business products, processes, Information Systems and Technology… and periodically makes recommendations of redesign (or sunset) products, processes, Information Systems and Technology…
+always keeps a birds eye view of whatever is happening and never gets lost in details…
+always keeps an eye on the chanllenges of the Industry in which his/her organization is operating and how others are resolving those challenges.
+keeps an eye on new technology trends appearing on the horizon and how and when they should be leveraged by the enterprise. Enterprise Architect alwys has a point of view.
+sets up governing process for architecture description evolution and communication.
+brings clarity to various stake-holders in the enterprise in-terms of architecture articulation and responsibilities of various entities in the enterprise.
+
+What skills are specific to Enterprise Architect role?
+I was a former enterprise architect at a bank. My boss headed up the enterprise architecture group which reported directly to the CTO and we covered several specific areas: Data, Systems, Network, Software. We had full-time SMEs (subject matter experts) across those disciplines.
+
+We probably spent 20% of our time in meetings with senior business leaders to evangelize our vision for the next 5–10 years, explaining why and how we would move towards a single unified data model with an integrated web service model. The rest of that time was trying to influence various business and technology groups for support.
+
+People at large companies work in silos. Some use modern tools. Others are using legacy tools. From an enterprise architect viewpoint, you first have to map out the high level connection flows between business groups before you can have meaningful discussions. Enterprise architects talk about the As-Is architecture and the To-Be architecture. When you present to management, they don’t understand technology. What they want to hear is that you’ve got a plan, it will be within budget, and that you have support from the various LOBs. Those As-Is and To-Be drawings help senior managers visualize the complexity.
+
+What powers do you have exactly if all you do is influence?
+
+Enterprise architect is like being a politician. You are trying to get funding for a uniform future goal while convincing existing teams to support your vision, many of whom have own agenda. People will always have good business reasons not to support you. Budget is by far the biggest one, so priorities matter. This will largely spell your success or failure, your ability to pick your battles.
+
+I consider the enterprise architect role to be the executive branch of the IT government. The CTO elected you to make federal laws (enterprise architecture) that all the states (departments) must abide. They are generally given the freedom to make choices within the boundaries of the rules, but if they willfully try to break rules, the CTO can and will veto their project.
+
+Anyway, if you like sitting in meetings 95% of your day and getting into heated “discussions” with people who may or may not enjoy grabbing lunch with you based on how your enterprise goals are trampling on their narrower agenda, enterprise architect is for you.
+Enterprise Architects, how do you deal with the abstractness of being an Architect?
+I have been in EA roles for a while now and my background has been in software engineering, so initially I struggled to keep up with the troughs and peaks. But personally what I would suggest is just not playing EA role as a day job... Find opportunities to influence, i.e. it may not be directly related to your EA role, still find avenues that relate to IT and find opportunities. One personal example I would bring is, the company was going through an internal audit and things were quiet, I used this period of low to actually create new artefacts on Service Management (EA influence on Service Management was quite low) - Initially I created the packs myself and then took it the team who actually sold it to their Heads...
+
+1. Find weak spots in your organisation
+2. Create stories to strengthen these weaker capabilities
+3. Engage at the bottom-middle layer not the top layer (and explain how this could help those people in improving their days job as well as IT)
+4. Let this group carry your torch...
+5. If its a hit, then this is your new Terms of References for next EA project!!
+
+Alternatively create a personal framework which you could have it as a takeaway or a EA kit to solve new problems... or focus/volunteer on leading operational problems, but never use EA to solve an op-problem (rem when you got a hammer everything looks like a nail!!) - Through these ways - one can add value and be a strong influencer in the organisation - it will pay you in the long run...
+
+As an enterprise architect, how much have you had to lead, push, or internally consult on technical implementation details?
+As business analyst I have a strong opinion about enterprise architects who lead or push on implementation details: don’t. An enterprise architect is not someone who makes the final decisions, an enterprise architect facilitates decision making by bringing the right perspective to the decision makers.
+There are two perspectives: the business perspective, the value chain. And the IT perspective which is about the implementation of that value chain in IT components. There are trade-offs between these two perspectives, a best-of-breed solution might fit the business requirements better, but a generic solution might be far more cost efficient. The best-of-breed solution might work now, but not fit long term IT strategic goals. The best-of-breed solution is superior, but there is little to no ability to support it with internal IT, adding to the costs if people have to be hired for support. Outsourcing the solution might not fit business strategy. This creates a complex decision matrix where no single “best choice” exists, but where a series of choices enables strategic advantage.
+Both business and IT can call their own preferred choices, the value of the enterprise architect is bringing these together in a way which shows in which ways an organisation can benefit - both long and short term - from combinations of choices, and which combinations of choices remove value from the company, and why.
+
+I can state the development in my business domain, both value chain as well as IT suppliers. But I’m unfamiliar with the developments on IT side and how these might benefit or hinder the IT components which enable the value chain.
+An enterprise architect which can combine my knowledge with IT domain knowledge, and present this in a comprehensive way to decision makers is extremely valuable. Pushing and leading on technical implementation is not part of this.
+
+Another added value of an enterprise architect is understanding the uncertainty that’s inherit in decision making, and showing which decisions allow for future change if a decision proved wrong. Again: no leading, no pushing, yes consulting, yes communicating. Should you move here, these are advantages, these are disadvantages. You can manage this uncertainty now, but it generates future uncertainty at this point.
+This is how I perceive enterprise architecture as an outsider, but working together often with our IT architects.
+
+broad role. Not for nothing do some people make a distinction between Enterprise Business Architects and Enterprise IT Architects. I am both and I wholeheartedly admit that it requires specific capabilities and a strong, communicative mindset.” 
+
+“On the one hand, you need organisational skills. Businesses look to me for help with things like business process management and business process improvement. On the other hand, I’m their go-to person for more specific matters like determining the right technology for a specific part of their digital transformation. The most important part of the job, though, is being that bridge across the (deep) water between management and developing teams.”  
+
+“Communication is key. Persuading every party of the same objectives is no easy feat. Management has certain expectations you need to talk through together, whilst the developing teams need to be made aware of the final decisions to know why they’re doing what they’re doing. Business alignment is truly important.” 
+
+“I make sure I’m always well-aware of the business I’m talking to and/or about, and that I understand the technologies that will be used. That means you need to know a thing or two about the workings of a CRM, for example, or an ERP. Communicative skills, and analytic and problem-solving thinking are indispensable in this job. I always stay on top of the basics of the technologies that are being used. When people consecutively talk details, I get support from the technical leads or the Solution Architect.”  
+
+“It’s incredibly satisfying to watch an organisation’s big goals come true. Our work is a long haul, and you won’t see results by the end of one working day. Logically so: you’re working on digital transformation that can take up to five years. It requires patience, but the effort is rewarded in the end.”  
+
+“Something you can count on at Agile Architects, is working with similarly minded people who will support you to achieve (y)our goals. We aim to be catalysts who achieve true change within organisations and deliver short-term, and tangible added value. The most important part to consider in this job, is that the biggest learning curve is on the job. There are standards we can teach you of course, but you’ll mostly learn by doing and from your colleagues who are here for you with advice and assistance.” 
+
+No two days are the same
+The genuinely exciting part of my job is to roll up my sleeves, dive deep into a given problem space and help shape the answers that will allow us to continue driving forward IT solutions. There’s simply no such thing as a typical day. I juggle an enormously diverse to-do list, which recently included things like:
+
+continually evolving the Architecture Strategy and Vision, and delivering this in sessions ranging from 1-2-1s up to hundreds of colleagues on a single call
+working closely with delivery managers, product owners and architects to determine roadmaps for delivering complex, intertwined IT applications and services
+holding hands-on sessions with technical architects to determine the detailed designs behind complex micro-service based IT applications
+pulling together complex cost models to fund the DWP transformation strategy and articulating this to Deputy Director and Director level colleagues

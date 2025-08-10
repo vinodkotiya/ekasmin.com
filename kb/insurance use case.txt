@@ -1,0 +1,76 @@
+Enterprise Application Modernization and Microservices Architecture: Insurance Use Cases
+Published on: March 28, 2023
+Related
+
+Digital
+7 MINUTES READ
+ 
+ 
+Enterprise Application Modernization|Speed-to-Market & Mitigating Risk|Data Processing & Scalability|Enterprise Application Modernization
+Insurers are racing to complete enterprise application modernization and drive business growth in a progressively more competitive and data-driven industry. However, the road to modernization is lined with obstacles, most of which revolve around IT architecture—specifically monolithic and service-oriented architecture.
+
+With monolithic architecture, the different components of an application are combined into a single business logic. It’s a very centralized and change-resistant architecture that, while previously sufficient to meet the needs of most insurers in a pre-digital era, is now too slow and unwieldly to meet the challenges of an increasingly dynamic industry.
+
+Along with monolithic architecture, insurers have been leveraging service-oriented architecture—a software architectural style that leverages reusable and loosely coupled services—to allow users to repurpose functionalities and form applications built from previous services. While service-oriented architecture is more flexible and involves less work to run than monolithic architecture, it has suffered from scalability problems that cripples its ability to manage faster software development cycles, especially in the era of cloud computing.
+
+To address these challenges, insurers are embracing API and microservices architecture. In this blog, we’ll discuss how they are using microservices to modernize their enterprise applications and provide the agility, speed and scale needed to support their business strategy.
+
+Modernizing Enterprise Applications with Microservices
+Microservices architecture is a very decentralized architectural style. Developed and deployed independently, microservices enable a large application to be segmented into individual, easily manageable parts that have few if any dependencies. They can be specialized to serve a specific purpose and updated or changed with little to no risk to the system at large, which makes them ideal for the kind of continuous integration and continuous delivery that characterizes the current, cloud-driven IT climate.
+
+Current use cases for microservices in the insurance industry include:
+
+Processing Large Data Volumes & Optimizing Scalability
+Data is the lifeblood of the insurance business, and today’s carriers have more data than ever before. From the traditional troves of historical data to the wealth of real-time data afforded by the digital revolution, insurers have never had more numbers to work with—but that can be a blessing or a curse.
+
+All that data needs to be organized and processed, and the one-size-fits-all approach of monolithic and service-oriented architecture struggles not only with scaling to accommodate increasingly larger volumes of data, but also with handling different data types effectively. After all, they’re designed—especially in the case of monolithic architecture—to run in a very specific and linear way. As new data types emerge, the entire architecture needs to change to process them.
+
+Microservices, by contrast, are small and self-contained, which makes them eminently scalable—particularly in the cloud—as failure in one microservice does not transfer to other microservices or the core system at large. Moreover, they can be specialized to handle specific data types, serving a single responsibility well instead of serving a variety of responsibilities poorly—as is often the case with general, all-purpose monolithic and service-oriented architecture. A carrier simply has to develop a new microservice to accommodate a different data type, which is a much shorter and cost-effective process than making global updates to the whole core system.
+
+Tip: Design microservices to process a single data type; it’s easier and more efficient to have multiple microservices serving a variety of data types than a single one serving them all.
+
+Data Processing & Scalability
+
+Managing Multiple Personas and Channels Effectively
+Insurers are charged with interacting with multiple parties—agents, customers, employees, and partners—that demand seamless, specialized, and distinct experiences.
+
+To deliver the right experience to the right party, insurers need a platform that’s flexible enough to quickly adjust to these personas; and microservices can be built to specifically serve the individual needs of each one.
+
+Similarly, microservices architecture is ideal for managing the variety of channels—from API marketplaces to aggregators—that insurers encounter these personas on. As these channels evolve or new channels emerge, insurers can quickly adjust the relevant microservice to accommodate the changes instead of making global adjustments to a large, monolithic or service-oriented system.
+
+Tip: Manage different personas and different channels with individual microservices specifically designed and optimized for them.
+
+Driving Speed-to-Market While Mitigating Risk
+One of the hallmarks of enterprise application modernization is speed. In the digital age, business moves faster than ever, and insurers that can’t release or update products rapidly will lose market share to those who can.
+
+Microservices are a key accelerator for driving speed-to-market, as they’re independently deployable and run within their own containers. Generally, deployment—along with builds, packaging, and QA—are automated as well.
+
+Conversely, a traditional monolithic or service-oriented application is subject to rigorous regression testing, as each service usually shares a database, business layer, and data access layer with every other service. This makes large releases extraordinarily risky and expensive.
+
+Not only are microservices more quickly released or upgraded, they carry almost no regression risk in other services because of their independent, decoupled nature.
+
+Tip: Release small updates regularly instead of large updates sparingly to stay current in the fast-paced insurance industry. Microservices lend themselves well by definition to consistent, incremental changes, as they generally fulfill a single responsibility and don’t have dependencies.
+
+Speed-to-Market & Mitigating Risk
+
+Optimizing the Claims Experience
+The claims experience—especially in the vulnerable FNOL stage—is one of the most critical battlegrounds for insurers. Generally, a poor claims experience translates to customer dissatisfaction and churn.
+
+In large part, delivering a superior claims experience is a technical endeavor.
+
+Instead of adding more integration logic into their core systems, as is often done with service-oriented or monolithic architecture, microservices enable a more change-independent environment that reduces dependency on their core systems, driving flexibility and therefore speed.
+
+Microservices can also be developed to meet the specific needs of processes like claims disbursement, which are typically very time-sensitive and highly correlated with customer retention when done promptly (and very negatively correlated with churn when done slowly).
+
+Tip: Build microservices to handle individual parts of the claim process, so you can quickly resolve any delays or other bottlenecks.
+
+Embracing DevOps to Maximize Your Microservices Investment
+As you work toward enterprise application modernization by investing in microservices architecture, it’s important to adopt a culture that supports your new system.
+
+DevOps is that culture.
+
+Evolving alongside microservice architecture to support the organizations using it, DevOps is a business philosophy that prioritizes autonomous, automation-focused teams that revolve around products rather than projects, who release small changes regularly and use value stream mapping to eliminate waste.
+
+In our dynamic, fast-moving, cloud-based IT climate, insurers need to manage large and diverse volumes of data, appropriately address multiple personas on different channels, drive speed-to-market while limiting risk, and optimize their claims experiences. Monolithic and service-oriented architectures simply aren’t up to the task—they’re relics of a pre-digital and pre-cloud world. Insurers need rapidly and independently deployable solutions to keep pace with the speed of digital without compromising the integrity of their core systems, and a microservices architecture is the only architecture that fits the bill. They’re the first and most necessary step toward enterprise application modernization.
+
+You don’t have to embark on this journey alone; get the guidance you need to successfully implement microservices.
